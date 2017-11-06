@@ -67,9 +67,18 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJz-KC-RTT">
+                                        <rect key="frame" x="148" y="308" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="z9T-tt-Xhv" kind="show" id="mfE-eu-yU7"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="bJz-KC-RTT" firstAttribute="centerX" secondItem="Ust-zW-hrL" secondAttribute="centerX" id="0Be-cJ-B8y"/>
+                                    <constraint firstItem="bJz-KC-RTT" firstAttribute="centerY" secondItem="Ust-zW-hrL" secondAttribute="centerY" id="1AM-GO-6Ri"/>
                                     <constraint firstAttribute="trailing" secondItem="7AW-Ud-TXi" secondAttribute="trailing" constant="20" id="Bmu-GK-nAo"/>
                                     <constraint firstItem="7AW-Ud-TXi" firstAttribute="leading" secondItem="Ust-zW-hrL" secondAttribute="leading" constant="20" id="I22-Ls-DVL"/>
                                     <constraint firstItem="M2Q-gk-Bdj" firstAttribute="top" secondItem="Ust-zW-hrL" secondAttribute="top" constant="20" id="R91-Zh-OX1"/>
@@ -95,6 +104,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6cJ-Pa-bek" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="819" y="144"/>
+        </scene>
+        <!--TestVC-->
+        <scene sceneID="R43-K7-53J">
+            <objects>
+                <viewController id="z9T-tt-Xhv" customClass="TestVC" customModule="RestoringViewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YrE-Vz-auM"/>
+                        <viewControllerLayoutGuide type="bottom" id="L0u-QV-RbM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eD3-lN-viA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6O-aP-VS1">
+                                <rect key="frame" x="166.5" y="323" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="G6O-aP-VS1" firstAttribute="centerY" secondItem="eD3-lN-viA" secondAttribute="centerY" id="XH2-eF-cPm"/>
+                            <constraint firstItem="G6O-aP-VS1" firstAttribute="centerX" secondItem="eD3-lN-viA" secondAttribute="centerX" id="coj-gk-XNX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bdi-ZL-RcK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1740" y="114"/>
         </scene>
     </scenes>
 </document>

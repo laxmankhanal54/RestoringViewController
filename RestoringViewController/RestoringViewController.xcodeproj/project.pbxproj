@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1537C9141FA98AB30014EBFF /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1537C9131FA98AB30014EBFF /* TestVC.swift */; };
 		1588EA8B1FA88FB10026DF96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588EA8A1FA88FB10026DF96 /* AppDelegate.swift */; };
 		1588EA8D1FA88FB10026DF96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588EA8C1FA88FB10026DF96 /* ViewController.swift */; };
 		1588EA901FA88FB10026DF96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1588EA8E1FA88FB10026DF96 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1537C9131FA98AB30014EBFF /* TestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
 		1588EA871FA88FB10026DF96 /* RestoringViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestoringViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1588EA8A1FA88FB10026DF96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1588EA8C1FA88FB10026DF96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				1588EA931FA88FB10026DF96 /* LaunchScreen.storyboard */,
 				1588EA961FA88FB10026DF96 /* Info.plist */,
 				1588EAAA1FA890390026DF96 /* DemoVC.swift */,
+				1537C9131FA98AB30014EBFF /* TestVC.swift */,
 			);
 			path = RestoringViewController;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1537C9141FA98AB30014EBFF /* TestVC.swift in Sources */,
 				1588EA8D1FA88FB10026DF96 /* ViewController.swift in Sources */,
 				1588EA8B1FA88FB10026DF96 /* AppDelegate.swift in Sources */,
 				1588EAAB1FA890390026DF96 /* DemoVC.swift in Sources */,
@@ -416,6 +420,7 @@
 				1588EAA61FA88FB10026DF96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1588EAA71FA88FB10026DF96 /* Build configuration list for PBXNativeTarget "RestoringViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				1588EAA91FA88FB10026DF96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
